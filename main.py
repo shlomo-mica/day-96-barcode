@@ -30,10 +30,10 @@ from pprint import pprint
 from barcode_image_show import barcode_Label_creation
 
 Label_object = barcode_Label_creation
-YOUR_APbI_KEY = '9fa74e71-bc0c-40df-9593-ef8d9c661d68'
+YOUR_APbI_KEY = ''
 # Configure API key authorization: Apikey
 configuration = cloudmersive_barcode_api_client.Configuration()
-configuration.api_key['Apikey'] = '9fa74e71-bc0c-40df-9593-ef8d9c661d68'
+configuration.api_key['Apikey'] = ''
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Apikey'] = 'Bearer'
 
